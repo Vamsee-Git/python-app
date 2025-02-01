@@ -35,7 +35,7 @@ jobs:
           tar -czf my_python_app.tar.gz build/
 
       - name: Upload Artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4.6.0
         with:
           name: my_python_app
           path: my_python_app.tar.gz
